@@ -1,3 +1,11 @@
-let students = ["tobi", "Musa", "Tinubu", "Mariam", "Joy", "Faith"];
+let score = prompt("enter your score aghata");
 
-console.log(10 == 10);
+if (score >= 90) {
+  console.log("A Grade");
+} else if (score >= 70) {
+  console.log("B Grade");
+} else if (score >= 50) {
+  console.log("C Grade");
+} else {
+  console.log("Fail");
+}
